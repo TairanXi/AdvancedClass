@@ -1,1 +1,53 @@
 config.yml
+# -------------------------------
+# Python
+# -------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.swp
+
+# Virtual environments (root-level)
+/.venv/
+/venv/
+/ENV/
+/env/
+/pyenv.cfg
+/lib/
+/bin/
+/include/
+
+# -------------------------------
+# OS / Editor
+# -------------------------------
+.DS_Store
+.vscode/
+.idea/
+
+# -------------------------------
+# ArduPilot / SITL builds
+# (match your actual folder name)
+# -------------------------------
+/SitlForMac/ardupilot/build/
+/SitlForMac/ardupilot/modules/
+/SitlForMac/ardupilot/libraries/
+/SitlForMac/ardupilot/.waf*
+/SitlForMac/ardupilot/waf*
+/SitlForMac/ardupilot/.lock-waf*
+/SitlForMac/ardupilot/Tools/autotest/*
+/SitlForMac/ardupilot/tmp/
+/SitlForMac/ardupilot/*.bin
+/SitlForMac/ardupilot/*.elf
+/SitlForMac/ardupilot/*.o
+/SitlForMac/ardupilot/.git/
+
+# -------------------------------
+# Logs / Output / Data
+# -------------------------------
+*.csv
+*.dat
+*.out
+*.tmp
+*.log
